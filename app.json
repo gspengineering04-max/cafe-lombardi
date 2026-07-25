@@ -11,14 +11,24 @@
       "resizeMode": "contain",
       "backgroundColor": "#8B4513"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#8B4513"
       },
       "package": "com.lombardi.cafe",
-      "permissions": ["INTERNET"]
-    }
+      "permissions": [
+        "INTERNET"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a971ece8-3469-4c30-abb8-67654948aa93"
+      }
+    },
+    "owner": "rezaojaghi"
   }
 }

@@ -1,7 +1,6 @@
 {
   "cli": {
-    "appVersionSource": "remote",
-    "projectId": "your-project-id-here"  // اگر می‌دانید
+    "appVersionSource": "remote"
   },
   "build": {
     "preview": {
