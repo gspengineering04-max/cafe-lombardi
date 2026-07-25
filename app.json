@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "کافه لمباردی",
+    "slug": "cafe-lombardi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#8B4513"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#8B4513"
+      },
+      "package": "com.lombardi.cafe",
+      "permissions": ["INTERNET"]
+    }
+  }
+}
